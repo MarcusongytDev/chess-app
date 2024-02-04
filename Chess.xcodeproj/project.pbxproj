@@ -15,6 +15,21 @@
 		C1B62F5527B3C3B8006A69F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1B62F5327B3C3B8006A69F9 /* LaunchScreen.storyboard */; };
 		C1B62F6027B3C3B8006A69F9 /* ChessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B62F5F27B3C3B8006A69F9 /* ChessTests.swift */; };
 		C1B62F6B27B3C3B8006A69F9 /* ChessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B62F6A27B3C3B8006A69F9 /* ChessUITests.swift */; };
+		C1B62F7927B3C3D5006A69F9 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B62F7827B3C3D5006A69F9 /* BoardView.swift */; };
+		C1B62F7B27B3D265006A69F9 /* ChessPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B62F7A27B3D265006A69F9 /* ChessPiece.swift */; };
+		C1B62F7D27B3D486006A69F9 /* ChessEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B62F7C27B3D486006A69F9 /* ChessEngine.swift */; };
+		C1B62F7F27BCFA14006A69F9 /* ChessDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B62F7E27BCFA14006A69F9 /* ChessDelegate.swift */; };
+		C1B6300527C6284B006A69F9 /* move.wav in Resources */ = {isa = PBXBuildFile; fileRef = C1B6300427C6284B006A69F9 /* move.wav */; };
+		C1B6300727C62866006A69F9 /* capture.wav in Resources */ = {isa = PBXBuildFile; fileRef = C1B6300627C62866006A69F9 /* capture.wav */; };
+		C1B924BB27CE345E0099820F /* ChessRank.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B924BA27CE345E0099820F /* ChessRank.swift */; };
+		C1B924BD27CE38910099820F /* ChessEngineTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B924BC27CE38910099820F /* ChessEngineTest.swift */; };
+		C1B924BF27D98EBC0099820F /* ChessMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B924BE27D98EBC0099820F /* ChessMove.swift */; };
+		C1B924FD27DEC9050099820F /* RookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B924FC27DEC9050099820F /* RookTests.swift */; };
+		C1B924FF27DEC9CC0099820F /* BishopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B924FE27DEC9CC0099820F /* BishopTests.swift */; };
+		C1B9250127DECA520099820F /* KnightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B9250027DECA520099820F /* KnightTests.swift */; };
+		C1B9250327DEE6AA0099820F /* QueenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B9250227DEE6AA0099820F /* QueenTests.swift */; };
+		C1B9250727DEE7E20099820F /* KingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B9250627DEE7E20099820F /* KingTests.swift */; };
+		C1B9250927DF06AD0099820F /* PawnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B9250827DF06AD0099820F /* PawnTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +64,21 @@
 		C1B62F6627B3C3B8006A69F9 /* ChessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1B62F6A27B3C3B8006A69F9 /* ChessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessUITests.swift; sourceTree = "<group>"; };
 		C1B62F6C27B3C3B8006A69F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1B62F7827B3C3D5006A69F9 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		C1B62F7A27B3D265006A69F9 /* ChessPiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessPiece.swift; sourceTree = "<group>"; };
+		C1B62F7C27B3D486006A69F9 /* ChessEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessEngine.swift; sourceTree = "<group>"; };
+		C1B62F7E27BCFA14006A69F9 /* ChessDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessDelegate.swift; sourceTree = "<group>"; };
+		C1B6300427C6284B006A69F9 /* move.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = move.wav; sourceTree = "<group>"; };
+		C1B6300627C62866006A69F9 /* capture.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = capture.wav; sourceTree = "<group>"; };
+		C1B924BA27CE345E0099820F /* ChessRank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessRank.swift; sourceTree = "<group>"; };
+		C1B924BC27CE38910099820F /* ChessEngineTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessEngineTest.swift; sourceTree = "<group>"; };
+		C1B924BE27D98EBC0099820F /* ChessMove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessMove.swift; sourceTree = "<group>"; };
+		C1B924FC27DEC9050099820F /* RookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RookTests.swift; sourceTree = "<group>"; };
+		C1B924FE27DEC9CC0099820F /* BishopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BishopTests.swift; sourceTree = "<group>"; };
+		C1B9250027DECA520099820F /* KnightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnightTests.swift; sourceTree = "<group>"; };
+		C1B9250227DEE6AA0099820F /* QueenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueenTests.swift; sourceTree = "<group>"; };
+		C1B9250627DEE7E20099820F /* KingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingTests.swift; sourceTree = "<group>"; };
+		C1B9250827DF06AD0099820F /* PawnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawnTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +131,17 @@
 			children = (
 				C1B62F4827B3C3B6006A69F9 /* AppDelegate.swift */,
 				C1B62F4A27B3C3B6006A69F9 /* SceneDelegate.swift */,
+				C1B62F7827B3C3D5006A69F9 /* BoardView.swift */,
+				C1B62F7A27B3D265006A69F9 /* ChessPiece.swift */,
+				C1B924BA27CE345E0099820F /* ChessRank.swift */,
+				C1B62F7C27B3D486006A69F9 /* ChessEngine.swift */,
+				C1B924BE27D98EBC0099820F /* ChessMove.swift */,
+				C1B62F7E27BCFA14006A69F9 /* ChessDelegate.swift */,
 				C1B62F4C27B3C3B6006A69F9 /* ViewController.swift */,
 				C1B62F4E27B3C3B6006A69F9 /* Main.storyboard */,
 				C1B62F5127B3C3B8006A69F9 /* Assets.xcassets */,
+				C1B6300627C62866006A69F9 /* capture.wav */,
+				C1B6300427C6284B006A69F9 /* move.wav */,
 				C1B62F5327B3C3B8006A69F9 /* LaunchScreen.storyboard */,
 				C1B62F5627B3C3B8006A69F9 /* Info.plist */,
 			);
@@ -114,6 +152,13 @@
 			isa = PBXGroup;
 			children = (
 				C1B62F5F27B3C3B8006A69F9 /* ChessTests.swift */,
+				C1B924BC27CE38910099820F /* ChessEngineTest.swift */,
+				C1B9250027DECA520099820F /* KnightTests.swift */,
+				C1B924FC27DEC9050099820F /* RookTests.swift */,
+				C1B924FE27DEC9CC0099820F /* BishopTests.swift */,
+				C1B9250227DEE6AA0099820F /* QueenTests.swift */,
+				C1B9250627DEE7E20099820F /* KingTests.swift */,
+				C1B9250827DF06AD0099820F /* PawnTests.swift */,
 				C1B62F6127B3C3B8006A69F9 /* Info.plist */,
 			);
 			path = ChessTests;
@@ -234,6 +279,8 @@
 				C1B62F5527B3C3B8006A69F9 /* LaunchScreen.storyboard in Resources */,
 				C1B62F5227B3C3B8006A69F9 /* Assets.xcassets in Resources */,
 				C1B62F5027B3C3B6006A69F9 /* Main.storyboard in Resources */,
+				C1B6300727C62866006A69F9 /* capture.wav in Resources */,
+				C1B6300527C6284B006A69F9 /* move.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +305,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1B62F7D27B3D486006A69F9 /* ChessEngine.swift in Sources */,
 				C1B62F4D27B3C3B6006A69F9 /* ViewController.swift in Sources */,
+				C1B62F7F27BCFA14006A69F9 /* ChessDelegate.swift in Sources */,
+				C1B62F7927B3C3D5006A69F9 /* BoardView.swift in Sources */,
+				C1B924BB27CE345E0099820F /* ChessRank.swift in Sources */,
 				C1B62F4927B3C3B6006A69F9 /* AppDelegate.swift in Sources */,
+				C1B924BF27D98EBC0099820F /* ChessMove.swift in Sources */,
+				C1B62F7B27B3D265006A69F9 /* ChessPiece.swift in Sources */,
 				C1B62F4B27B3C3B6006A69F9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +321,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1B924FF27DEC9CC0099820F /* BishopTests.swift in Sources */,
+				C1B924BD27CE38910099820F /* ChessEngineTest.swift in Sources */,
+				C1B9250327DEE6AA0099820F /* QueenTests.swift in Sources */,
+				C1B9250927DF06AD0099820F /* PawnTests.swift in Sources */,
+				C1B924FD27DEC9050099820F /* RookTests.swift in Sources */,
 				C1B62F6027B3C3B8006A69F9 /* ChessTests.swift in Sources */,
+				C1B9250727DEE7E20099820F /* KingTests.swift in Sources */,
+				C1B9250127DECA520099820F /* KnightTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +497,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55X499LJ25;
 				INFOPLIST_FILE = Chess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +516,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55X499LJ25;
 				INFOPLIST_FILE = Chess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
